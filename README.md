@@ -1,23 +1,53 @@
-# README: Buying Domain at Niaga Hoster and Deploying to Netlify with Custom Domain using Cloudflare
+# README: Buying Domain at Niaga Hoster and Deploying to Netlify with Custom Domain using Cloudflare 
 
-Hey there! 👋🏻 I'm Andra, and I created this README to submit my assignment for RevoU.
+Hey there! 👋🏻 I'm Andra, and I created this documentation about deploying a website with a custom domain on Netlify as my assignment for RevoU.
 
-This documentation will guide you through the process of purchasing a domain from Niaga Hoster, deploying your website to Netlify using a custom domain, and configuring DNS settings using Cloudflare. By following these steps, you'll be able to register your domain, set up your website, and manage DNS records for your domain.
+This documentation will guide you through the process of deploying your website to Netlify using a custom domain, configuring DNS settings using Cloudflare, and purchasing a domain from Niaga Hoster. By following these steps, you'll be able to set up a deployment workflow using Git flow, register your domain, and manage DNS records for your domain.
+
+## Table of Contents
+- [README: Buying Domain at Niaga Hoster and Deploying to Netlify with Custom Domain using Cloudflare](#readme-buying-domain-at-niaga-hoster-and-deploying-to-netlify-with-custom-domain-using-cloudflare)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Steps](#steps)
+    - [Step 1: Deployment with Git Flow](#step-1-deployment-with-git-flow)
+    - [Step 2: Purchase a Domain from Niaga Hoster](#step-2-purchase-a-domain-from-niaga-hoster)
+    - [Step 3: Deploy Website to Netlify](#step-3-deploy-website-to-netlify)
+    - [Step 4: Set up Custom Domain in Netlify](#step-4-set-up-custom-domain-in-netlify)
+    - [Step 5: Configure DNS using Cloudflare](#step-5-configure-dns-using-cloudflare)
+    - [Step 6: Verify and Finalize](#step-6-verify-and-finalize)
 
 ## Prerequisites
 
 Before you get started, make sure you have the following:
 
 - A computer with internet access
-- An account on Niaga Hoster ([https://www.niagahoster.co.id/](https://www.niagahoster.co.id/))
-- An account on Netlify ([https://www.netlify.com/](https://www.netlify.com/))
-- An account on Cloudflare ([https://www.cloudflare.com/](https://www.cloudflare.com/))
+- An account on Netlify (`https://www.netlify.com/`)
+- An account on Cloudflare (`https://www.cloudflare.com/`)
+- A Git repository set up for your website
 
 ## Steps
 
-### 1. Purchase a Domain from Niaga Hoster
+### Step 1: Deployment with Git Flow
 
-1. Go to the Niaga Hoster website ([https://www.niagahoster.co.id/](https://www.niagahoster.co.id/)) and log in to your account.
+If you're using Git for version control, you can set up a deployment workflow using Git flow. Here's an example of the workflow:
+
+1. Create a new branch for your changes: `git checkout -b feature/my-changes`
+
+2. Make your desired changes to your website files.
+
+3. Commit your changes: `git commit -m "Add new features"`
+
+4. Push the changes to your Git repository: `git push origin feature/my-changes`
+
+5. Open a pull request on your repository's hosting platform (e.g., GitHub, GitLab).
+
+6. Once the pull request is approved, merge it to the `main` branch.
+
+7. Netlify will automatically detect the changes and trigger a new deployment based on the merged changes.
+
+### Step 2: Purchase a Domain from Niaga Hoster
+
+1. Go to the Niaga Hoster website (`https://www.niagahoster.co.id/`) and log in to your account.
 
 2. Search for an available domain name using the provided search bar.
 
@@ -31,7 +61,7 @@ Before you get started, make sure you have the following:
 
    ![Complete registration](Images/readme/complete_registration.png)
 
-### 2. Deploy Website to Netlify
+### Step 3: Deploy Website to Netlify
 
 1. Log in to your Netlify account.
 
@@ -51,7 +81,7 @@ Before you get started, make sure you have the following:
 
    ![Deploy site](Images/readme/deploy_site.png)
 
-### 3. Set up Custom Domain in Netlify
+### Step 4: Set up Custom Domain in Netlify
 
 1. After the deployment is complete, click on the "Site settings" button for your deployed site.
 
@@ -69,9 +99,7 @@ Before you get started, make sure you have the following:
 
 5. Netlify will provide you with DNS configuration instructions. Make sure to note them down for the next step.
 
-   ![DNS configuration](Images/readme/dns_configuration.png)
-
-### 4. Configure DNS using Cloudflare
+### Step 5: Configure DNS using Cloudflare
 
 1. Log in to your Cloudflare account.
 
@@ -105,7 +133,7 @@ Before you get started, make sure you have the following:
 
    ![Replace nameservers](Images/readme/replace_nameservers.png)
 
-### 5. Verify and Finalize
+### Step 6: Verify and Finalize
 
 1. Return to your Netlify account and navigate to the "Domain management" section for your site.
 
@@ -123,4 +151,4 @@ Before you get started, make sure you have the following:
 
 7. Congratulations! Your website should now be live and accessible through your custom domain.
 
-That's it! You've successfully purchased a domain from Niaga Hoster, deployed your website to Netlify with a custom domain, and configured DNS settings using Cloudflare. Enjoy your new website! 🚀
+That's it! You've successfully deployed your website to Netlify using a custom domain, configured DNS settings using Cloudflare, and purchased a domain from Niaga Hoster. Enjoy your new website! 🚀
