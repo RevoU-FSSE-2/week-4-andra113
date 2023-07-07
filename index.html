@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipes app</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="resposive.css" />
+</head>
+
+<body>
+  <nav>
+    <h1>Recipes App</h1>
+    <div id="desktop">
+      <ul class="rightNav">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <div id="mobile">
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <h2>Recipes app</h2>
+    <p>This app is about a list of recipes for your cooking needs</p>
+  </header>
+
+  <main>
+    <section id="favorite-recipes">
+      <h2>Favorite Recipes</h2>
+      <div class="grid-container">
+        <div id="item-1">
+          <img src="Images/nasi goreng.jpg" alt="nasi goreng." />
+          <div id="NasiGorengTitle">Nasi Goreng</div>
+        </div>
+        <div id="item-2">
+          <img src="Images/omelet.jpg" alt="Omelet" />
+          <div id="OmeletTitle">Omelet</div>
+        </div>
+        <div id="item-3">
+          <img src="Images/sate ayam.jpg" alt="Sate Ayam" />
+          <div id="SateAyamTitle">Sate Ayam</div>
+        </div>
+        <div id="item-4">
+          <img src="Images/sop ayam.jpg" alt="Sop Ayam" />
+          <div id="SopAyamTitle">Sop Ayam</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cooking-facts">
+      <h2 class="centered-text">Facts about cooking</h2>
+      <div class="flex-container">
+        <div class="facts">
+          <ul>
+            <li>Cooking is a form of creative expression</li>
+            <li>Proper seasoning can elevate the taste of a dish</li>
+            <li>Cooking can be a therapeutic activity</li>
+            <li>Cooking enhances the nutritional value of certain foods</li>
+            <li>
+              Different cooking methods create varying flavors and textures
+            </li>
+            <li>
+              Cooking with fresh, seasonal ingredients supports local
+              agriculture
+            </li>
+            <li>
+              Traditional recipes preserve cultural heritage and culinary
+              traditions
+            </li>
+            <li>Cooking brings people together and fosters connections</li>
+            <li>
+              Experimenting with spices and herbs adds depth and complexity
+            </li>
+            <li>
+              Cooking at home can be cost-effective and provides control over
+              ingredients
+            </li>
+            <li>Cooking reduces food waste by utilizing leftovers</li>
+            <li>Cooking can be a form of self-expression and relaxation</li>
+            <li>
+              Cooking is a lifelong learning journey with endless
+              opportunities
+            </li>
+          </ul>
+        </div>
+        <div class="image">
+          <img src="Images/cooking person.jpg" alt="A person cooking in the kitchen." />
+          <figcaption>
+            Cooking can be a fun and rewarding experience.
+          </figcaption>
+        </div>
+      </div>
+    </section>
+
+    <section id="cooking-video" class="centered-section">
+      <h2>A video of a person cooking</h2>
+      <div class="video-container">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/zhI7bQyTmHw" title="Cooking video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="recipe-submission">
+      <h2>Submit a Recipe</h2>
+      <form action="#">
+        <fieldset>
+          <legend>Recipe Details:</legend>
+          <div>
+            <label for="recipeName">Recipe Name:</label>
+            <input id="recipeName" type="text" required />
+          </div>
+
+          <div>
+            <label for="category">Category of food:</label>
+            <select id="category" required>
+              <option value="">Select a category</option>
+              <option value="breakfast">Breakfast</option>
+              <option value="lunch">Lunch</option>
+              <option value="dinner">Dinner</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" rows="3" required></textarea>
+          </div>
+
+          <div>
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" rows="5" required></textarea>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Contact Information:</legend>
+          <div>
+            <label for="fullName">Full Name:</label>
+            <input id="fullName" type="text" required />
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" required />
+          </div>
+
+          <div>
+            <label for="country">Country:</label>
+            <input id="country" type="text" required />
+          </div>
+
+          <div>
+            <label for="birthDate">Birth Date:</label>
+            <input id="birthDate" type="date" required />
+          </div>
+        </fieldset>
+        <button type="submit">Submit Recipe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>copyright Recipes App 2023</p>
+  </footer>
+</body>
+
+</html>
