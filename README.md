@@ -63,7 +63,7 @@ Before you get started, make sure you have the following:
 
    ![Add custom domain](Images/readme/add_custom_domain.png)
 
-4. Enter your purchased domain from Niaga Hoster (e.g., `yourdomain.com`) and click "Save."
+4. Enter your purchased domain from Niaga Hoster (e.g., `andradwikasa.site`) and click "Save."
 
    ![Enter custom domain](Images/readme/enter_custom_domain.png)
 
@@ -93,8 +93,6 @@ Before you get started, make sure you have the following:
 
 6. Choose the free plan or the desired plan level, and click on "Confirm plan."
 
-   ![Choose plan](Images/readme/choose_plan.png)
-
 7. Cloudflare will provide you with two nameservers. Take note of them.
 
    ![Nameservers](Images/readme/nameservers.png)
@@ -118,8 +116,6 @@ Before you get started, make sure you have the following:
 3. Netlify will perform a DNS lookup to verify the changes.
 
 4. Once the DNS configuration is verified, click on "Set up SSL" to enable HTTPS for your domain.
-
-   ![Set up SSL](Images/readme/set_up_ssl.png)
 
 5. Netlify will automatically provision an SSL certificate for your domain.
 
