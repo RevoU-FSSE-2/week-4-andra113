@@ -1,20 +1,23 @@
-# README: Buying Domain at Niaga Hoster and Deploying to Netlify with Custom Domain using Cloudflare 
+<div align="center">
+  <h1>Deploying Website with Custom Domain on Netlify</h1>
+  <p>By Andra Dwikasa</p>
+  <img src="images/logo.jpg" alt="Logo" width="200" height="200">
+</div>
 
 Hey there! 👋🏻 I'm Andra, and I created this documentation about deploying a website with a custom domain on Netlify as my assignment for RevoU.
 
 This documentation will guide you through the process of deploying your website to Netlify using a custom domain, configuring DNS settings using Cloudflare, and purchasing a domain from Niaga Hoster. By following these steps, you'll be able to set up a deployment workflow using Git flow, register your domain, and manage DNS records for your domain.
 
 ## Table of Contents
-- [README: Buying Domain at Niaga Hoster and Deploying to Netlify with Custom Domain using Cloudflare](#readme-buying-domain-at-niaga-hoster-and-deploying-to-netlify-with-custom-domain-using-cloudflare)
-  - [Table of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
-  - [Steps](#steps)
-    - [Step 1: Deployment with Git Flow](#step-1-deployment-with-git-flow)
-    - [Step 2: Purchase a Domain from Niaga Hoster](#step-2-purchase-a-domain-from-niaga-hoster)
-    - [Step 3: Deploy Website to Netlify](#step-3-deploy-website-to-netlify)
-    - [Step 4: Set up Custom Domain in Netlify](#step-4-set-up-custom-domain-in-netlify)
-    - [Step 5: Configure DNS using Cloudflare](#step-5-configure-dns-using-cloudflare)
-    - [Step 6: Verify and Finalize](#step-6-verify-and-finalize)
+- [Table of Contents](#table-of-contents)
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+  - [Step 1: Deployment with Git Flow](#step-1-deployment-with-git-flow)
+  - [Step 2: Purchase a Domain from Niaga Hoster](#step-2-purchase-a-domain-from-niaga-hoster)
+  - [Step 3: Deploy Website to Netlify](#step-3-deploy-website-to-netlify)
+  - [Step 4: Set up Custom Domain in Netlify](#step-4-set-up-custom-domain-in-netlify)
+  - [Step 5: Configure DNS using Cloudflare](#step-5-configure-dns-using-cloudflare)
+  - [Step 6: Verify and Finalize](#step-6-verify-and-finalize)
 
 ## Prerequisites
 
