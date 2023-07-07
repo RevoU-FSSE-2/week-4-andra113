@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Deploying Website with Custom Domain on Netlify</h1>
   <p>By Andra Dwikasa</p>
-  <img src="images/logo.jpg" alt="Logo" width="200" height="200">
+  <img src="Images/logo.jpg" alt="Logo" width="200" height="200">
 </div>
 
 Hey there! 👋🏻 I'm Andra, and I created this documentation about deploying a website with a custom domain on Netlify as my assignment for RevoU.
