@@ -34,19 +34,25 @@ Before you get started, make sure you have the following:
 
 If you're using Git for version control, you can set up a deployment workflow using Git flow. Here's an example of the workflow:
 
-1. Create a new branch for your changes: `git checkout -b feature/my-changes`
+```bash
+# Create a new branch for your changes
+git checkout -b feature/my-changes
 
-2. Make your desired changes to your website files.
+# Make your desired changes to your website files
 
-3. Commit your changes: `git commit -m "Add new features"`
+# Commit your changes
+git commit -m "Add new features"
 
-4. Push the changes to your Git repository: `git push origin feature/my-changes`
+# Push the changes to your Git repository
+git push origin feature/my-changes
 
-5. Open a pull request on your repository's hosting platform (e.g., GitHub, GitLab).
+# Open a pull request on your repository's hosting platform (e.g., GitHub, GitLab)
 
-6. Once the pull request is approved, merge it to the `main` branch.
+# Once the pull request is approved, merge it to the `main` branch
 
-7. Netlify will automatically detect the changes and trigger a new deployment based on the merged changes.
+# Netlify will automatically detect the changes and trigger a new deployment based on the merged changes
+
+```
 
 ### Step 2: Purchase a Domain from Niaga Hoster
 
