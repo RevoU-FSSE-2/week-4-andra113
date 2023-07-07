@@ -107,7 +107,7 @@ If you're using Git for version control, you can set up a deployment workflow us
 
    ![Add a site](Images/readme/add_a_site.png)
 
-3. Enter your domain name (e.g., `yourdomain.com`) and click on "Add site."
+3. Enter your domain name (e.g., `andradwika.site`) and click on "Add site."
 
    ![Enter domain name](Images/readme/enter_domain_name.png)
 
