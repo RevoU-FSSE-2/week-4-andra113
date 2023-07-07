@@ -21,15 +21,15 @@ Before you get started, make sure you have the following:
 
 2. Search for an available domain name using the provided search bar.
 
-   ![Search for domain](images/readme/search_domain.png)
+   ![Search for domain](Images/readme/search_domain.png)
 
 3. Select the desired domain from the search results and proceed to the checkout page.
 
-   ![Select domain](images/readme/select_domain.png)
+   ![Select domain](Images/readme/select_domain.png)
 
 4. Follow the on-screen instructions to complete the domain registration process, providing the necessary information and making the payment.
 
-   ![Complete registration](images/readme/complete_registration.png)
+   ![Complete registration](Images/readme/complete_registration.png)
 
 ### 2. Deploy Website to Netlify
 
@@ -37,19 +37,19 @@ Before you get started, make sure you have the following:
 
 2. On the Netlify dashboard, click on "New site from Git."
 
-   ![New site from Git](images/readme/new_site_from_git.png)
+   ![New site from Git](/Images/readme/new_site_from_git.pngImages/readme/new_site_from_git.png)
 
 3. Connect your Git repository or drag and drop your website files to the designated area.
 
-   ![Connect repository](images/readme/connect_repository.png)
+   ![Connect repository](Images/readme/connect_repository.png)
 
 4. Configure the build settings according to your project requirements.
 
-   ![Configure build settings](images/readme/configure_build_settings.png)
+   ![Configure build settings](Images/readme/configure_build_settings.png)
 
 5. Once the build configuration is complete, your website is deployed on Netlify.
 
-   ![Deploy site](images/readme/deploy_site.png)
+   ![Deploy site](Images/readme/deploy_site.png)
 
 ### 3. Set up Custom Domain in Netlify
 
@@ -57,19 +57,19 @@ Before you get started, make sure you have the following:
 
 2. In the settings menu, navigate to "Domain management."
 
-   ![Domain management](images/readme/domain_management.png)
+   ![Domain management](Images/readme/domain_management.png)
 
 3. In the "Custom domains" section, click on "Add custom domain."
 
-   ![Add custom domain](images/readme/add_custom_domain.png)
+   ![Add custom domain](Images/readme/add_custom_domain.png)
 
 4. Enter your purchased domain from Niaga Hoster (e.g., `yourdomain.com`) and click "Save."
 
-   ![Enter custom domain](images/readme/enter_custom_domain.png)
+   ![Enter custom domain](Images/readme/enter_custom_domain.png)
 
 5. Netlify will provide you with DNS configuration instructions. Make sure to note them down for the next step.
 
-   ![DNS configuration](images/readme/dns_configuration.png)
+   ![DNS configuration](Images/readme/dns_configuration.png)
 
 ### 4. Configure DNS using Cloudflare
 
@@ -77,35 +77,35 @@ Before you get started, make sure you have the following:
 
 2. On the Cloudflare dashboard, click on "Add a site" to add your domain.
 
-   ![Add a site](images/readme/add_a_site.png)
+   ![Add a site](Images/readme/add_a_site.png)
 
 3. Enter your domain name (e.g., `yourdomain.com`) and click on "Add site."
 
-   ![Enter domain name](images/readme/enter_domain_name.png)
+   ![Enter domain name](Images/readme/enter_domain_name.png)
 
 4. Cloudflare will scan your DNS records. Once the scan is complete, click on "Next."
 
-   ![DNS scan](images/readme/dns_scan.png)
+   ![DNS scan](Images/readme/dns_scan.png)
 
 5. Review the DNS records found by Cloudflare. Make any necessary changes and click on "Continue."
 
-   ![Review DNS records](images/readme/review_dns_records.png)
+   ![Review DNS records](Images/readme/review_dns_records.png)
 
 6. Choose the free plan or the desired plan level, and click on "Confirm plan."
 
-   ![Choose plan](images/readme/choose_plan.png)
+   ![Choose plan](Images/readme/choose_plan.png)
 
 7. Cloudflare will provide you with two nameservers. Take note of them.
 
-   ![Nameservers](images/readme/nameservers.png)
+   ![Nameservers](Images/readme/nameservers.png)
 
 8. Go to your Niaga Hoster account and find the DNS management or nameserver configuration section.
 
-   ![DNS management](images/readme/dns_management.png)
+   ![DNS management](Images/readme/dns_management.png)
 
 9. Replace the existing nameservers with the ones provided by Cloudflare and save the changes.
 
-   ![Replace nameservers](images/readme/replace_nameservers.png)
+   ![Replace nameservers](Images/readme/replace_nameservers.png)
 
 ### 5. Verify and Finalize
 
@@ -113,13 +113,13 @@ Before you get started, make sure you have the following:
 
 2. Click on "Verify DNS configuration."
 
-   ![Verify DNS configuration](images/readme/verify_dns_configuration.png)
+   ![Verify DNS configuration](Images/readme/verify_dns_configuration.png)
 
 3. Netlify will perform a DNS lookup to verify the changes.
 
 4. Once the DNS configuration is verified, click on "Set up SSL" to enable HTTPS for your domain.
 
-   ![Set up SSL](images/readme/set_up_ssl.png)
+   ![Set up SSL](Images/readme/set_up_ssl.png)
 
 5. Netlify will automatically provision an SSL certificate for your domain.
 
