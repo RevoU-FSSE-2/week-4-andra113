@@ -37,7 +37,7 @@ Before you get started, make sure you have the following:
 
 2. On the Netlify dashboard, click on "New site from Git."
 
-   ![New site from Git](/Images/readme/new_site_from_git.pngImages/readme/new_site_from_git.png)
+   ![New site from Git](Images/readme/new_site_from_git.png)
 
 3. Connect your Git repository or drag and drop your website files to the designated area.
 
