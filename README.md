@@ -9,6 +9,7 @@ Hey there! 👋🏻 I'm Andra, and I created this documentation about deploying 
 This documentation will guide you through the process of deploying your website to Netlify using a custom domain, configuring DNS settings using Cloudflare, and purchasing a domain from Niaga Hoster. By following these steps, you'll be able to set up a deployment workflow using Git flow, register your domain, and manage DNS records for your domain.
 
 ## Table of Contents
+
 - [Table of Contents](#table-of-contents)
 - [Prerequisites](#prerequisites)
 - [Steps](#steps)
@@ -23,10 +24,11 @@ This documentation will guide you through the process of deploying your website 
 
 Before you get started, make sure you have the following:
 
-- A computer with internet access
-- An account on Netlify (`https://www.netlify.com/`)
-- An account on Cloudflare (`https://www.cloudflare.com/`)
-- A Git repository set up for your website
+- A computer with internet access 
+- An account on [![NiagaHoster](https://img.shields.io/badge/NiagaHoster-007aff?logo=niagahoster)](https://www.niagahoster.co.id)
+- An account on Netlify [![Netlify](https://img.shields.io/badge/Netlify-6B48FF?style=flat&logo=netlify&logoColor=white)](`https://www.netlify.com/`)
+- An account on [![CloudFare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)](`https://www.cloudflare.com/`)
+- A Git repository set up for your website [![Github](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/dashboard)
 
 ## Steps
 
@@ -56,7 +58,7 @@ git push origin feature/my-changes
 
 ### Step 2: Purchase a Domain from Niaga Hoster
 
-1. Go to the Niaga Hoster website (`https://www.niagahoster.co.id/`) and log in to your account.
+1. Go to the [![NiagaHoster](https://img.shields.io/badge/NiagaHoster-007aff?logo=niagahoster)](https://www.niagahoster.co.id) and log in to your account.
 
 2. Search for an available domain name using the provided search bar.
 
@@ -72,7 +74,7 @@ git push origin feature/my-changes
 
 ### Step 3: Deploy Website to Netlify
 
-1. Log in to your Netlify account.
+1. Log in to your [![Netlify](https://img.shields.io/badge/Netlify-6B48FF?style=flat&logo=netlify&logoColor=white)](`https://www.netlify.com/`) account.
 
 2. On the Netlify dashboard, click on "New site from Git."
 
@@ -110,7 +112,7 @@ git push origin feature/my-changes
 
 ### Step 5: Configure DNS using Cloudflare
 
-1. Log in to your Cloudflare account.
+1. Log in to your [![CloudFare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)](`https://www.cloudflare.com/`) account.
 
 2. On the Cloudflare dashboard, click on "Add a site" to add your domain.
 
